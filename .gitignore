@@ -1,0 +1,4 @@
+django_site/helloworld/__pycache__/*
+django_site/hola/__pycache__/*
+django_site/hola/migrations/*
+

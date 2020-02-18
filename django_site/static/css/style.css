@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+    overflow-x: hidden;
+    color: #fff;
+    background: url(elems.png), linear-gradient(#01b1b4, #1278ab) center no-repeat;
+    background-size: cover;
+}
+img {
+    max-width: 400px;
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.content {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 30px;
+}
